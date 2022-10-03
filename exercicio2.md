@@ -5,4 +5,11 @@ Depois disso, escreva **No DevTools** o código necessário para que seja possí
 Cole o comando aqui:
 ```jsx
     cole o código JS nesta área.
+    function adicionar(){
+        let nomeFruta = document.getElementById("nome").value
+        let lista = document.getElementById("lista-de-frutas").innerHTML
+        lista = lista + "<li>"+nomeFruta+"</li>"
+
+        document.getElementById("lista-de-frutas").innerHTML = lista
+    }
 ```
